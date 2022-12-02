@@ -1,0 +1,24 @@
+/* Nav Bar */
+
+.navbar-nav a{
+    font-size: 18px;
+  }
+
+  .show__profileActions{
+display: block;
+  }
+  
+  .profile__Actions{
+    position: absolute;
+    top: 98%;
+  left: 0;
+  width: 150px;
+  z-index: 10;
+  padding: 15px;
+  display: Flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--card-bg-01);
+  line-height: 30px;
+  display: none;
+  }
